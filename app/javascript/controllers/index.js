@@ -5,4 +5,6 @@
 import { application } from "./application"
 
 import HelloController from "./hello_controller"
+import nested_form_controller from "./nested_form_controller"
 application.register("hello", HelloController)
+application.register("nested_form", nested_form_controller)
